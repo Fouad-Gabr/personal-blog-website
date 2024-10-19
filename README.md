@@ -6,4 +6,5 @@ This project is part of the Freelance Fast Forward Nanodegree program by Udacity
 - Responsive design for various devices (mobile, tablet, and desktop)
 - Clean and structured layout with semantic HTML
 - Custom styling with CSS for a visually appealing interface
+
 This project serves as a practice for reviewing and refining my skills in HTML and CSS.
