@@ -1,0 +1,97 @@
+.blog-post-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 70px 1fr 140px;
+  grid-template-areas:
+    "navbar navbar navbar navbar navbar navbar navbar navbar navbar navbar navbar navbar"
+    "cont cont cont cont cont cont cont cont cont cont cont cont"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.homepage-header {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.post-main {
+  grid-area: cont;
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.post-content {
+  background-color: #efe;
+  margin: 1.5%;
+  padding: 3%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.488);
+  margin-bottom: 25px;
+}
+
+.post-first-heading {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.post-heading {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.lorem {
+  margin-bottom: 25px;
+}
+
+.first-span,
+.second-span {
+  display: block;
+  border: 2px solid #000;
+  padding: 5%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+li {
+  margin-left: 15%;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: white;
+  padding: 10px 30px;
+  color: rgb(0, 225, 255);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border: 1px solid rgb(0, 225, 255);
+  cursor: pointer;
+  margin: 5px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: rgb(0, 225, 255);
+  color: white;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+}
