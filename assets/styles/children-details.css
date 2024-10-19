@@ -1,0 +1,56 @@
+a {
+  color: rgb(0, 149, 255);
+}
+
+.header1 {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.679);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.subscribe,
+.fa-magnifying-glass {
+  color: rgba(0, 0, 0, 0.679);
+  font-size: 20px;
+}
+
+.world {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: rgb(0, 149, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.design {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: rgb(22, 163, 22);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nov-11,
+.nov-12 {
+  color: rgba(0, 0, 0, 0.564);
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 2px;
+}
+
+.fa-magnifying-glass {
+  cursor: pointer;
+}
+
+img {
+  width: 80%;
+  height: 250px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
